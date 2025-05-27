@@ -1,25 +1,27 @@
 # GuvsQuack
-Projeto para desenvolvimento em angular com biblioteca em POUI
+**Projeto para desenvolvimento em Angular com biblioteca PO.UI**
 
-#Sistema de Empréstimo de livros particulares
-	##Front (Angular) Prioridade(Guvs):
-Homepage
-Login
-Perfil
-Vitrine (marketplace)
-Carrinho
-Pagamento
-Acompanhar pedidos
+## Sistema de Empréstimo de Livros Particulares
 
-	##Back(FastAPI) Prioridade(EQ):
-Cadastro/Edição de livro
-Empréstimo/Devolução do livro
-Criação de alerta para livros vencidos
-Conexão com o DB
-Criação/Edição de usuário
+### Frontend (Angular) - Prioridade: Guvs
+- **Homepage**  
+- **Login**  
+- **Perfil**  
+- **Vitrine (Marketplace)**  
+- **Carrinho**  
+- **Pagamento**  
+- **Acompanhar Pedidos**  
 
-	##DB(Supabase/Firebase) Prioridade(Quack):
-Usuários
-Livros
-Pedidos (id)
-Empréstimos un. livro (FKey = pedidos.id)
+### Backend (FastAPI) - Prioridade: EQ
+- **Cadastro/Edição de Livro**  
+- **Empréstimo/Devolução do Livro**  
+- **Criação de Alerta para Livros Vencidos**  
+- **Conexão com o Banco de Dados**  
+- **Criação/Edição de Usuário**  
+
+### Banco de Dados (Supabase/Firebase) - Prioridade: Quack
+- **Usuários**  
+- **Livros**  
+- **Pedidos (id)**  
+- **Empréstimos (uni-livro)**
+  - *FKey = pedidos.id*
